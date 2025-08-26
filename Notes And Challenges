@@ -1,0 +1,10 @@
+ PolyglotDesk - Notes & Challenges
+
+1. Googletrans API sometimes fails with certain languages (API limit or internet issues).
+   → I added try/except to show error instead of breaking.
+
+2. Hindi text sometimes appears as "????" due to missing fonts on some systems.
+   → Solution: Install proper system fonts for Hindi.
+
+3. Added a warning if user tries to translate empty text.
+
